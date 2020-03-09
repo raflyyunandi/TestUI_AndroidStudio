@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutBtn"
+    tools:context=".ButtonActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bgColorToBlack"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Change Background to Black"
+            android:onClick="toBlack"
+            tools:ignore="OnClick"
+            android:layout_width="5dp"
+            />
+
+        <Button
+            android:id="@+id/bgColorToRed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Change Background to Red"
+            android:onClick="toRed"
+            tools:ignore="OnClick"
+            />
+
+        <Button
+            android:id="@+id/bgColorToBlue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Change Background to Blue"
+            android:onClick="toBlue"
+            tools:ignore="OnClick"
+            />
+
+    </LinearLayout>
+</LinearLayout>

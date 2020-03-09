@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestUI_173040028</string>
+    <string-array name="galaxy_array">
+        <item> Bima Sakti</item>
+        <item> Andromeda</item>
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
